@@ -1,7 +1,7 @@
 {
-  "name": "simplexmq",
+  "name": "popopxmq",
   "version": "0.0.1",
-  "description": "SimpleXMQ - JavaScript SMP protocol client and agent",
+  "description": "JavaScript SMP protocol client and agent for POPOPX Chat",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/simplex-chat/simplexmq-js.git"
+    "url": "git+https://github.com/popopx-chat/popopxmq-js.git"
   },
-  "author": "simplex.chat",
+  "author": "POPOPX Chat",
   "license": "AGPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/simplex-chat/simplexmq-js/issues"
+    "url": "https://github.com/popopx-chat/popopxmq-js/issues"
   },
-  "homepage": "https://github.com/simplex-chat/simplexmq-js#readme",
+  "homepage": "https://github.com/popopx-chat/popopxmq-js#readme",
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "@types/node": "^15.0.2",

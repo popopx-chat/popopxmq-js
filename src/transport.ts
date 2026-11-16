@@ -306,7 +306,7 @@ const transportBlockSize = 4096
 const maxTransportBlockSize = 65536
 
 // Client SMP encrypted transport handshake.
-// See https://github.com/simplex-chat/simplexmq/blob/master/protocol/simplex-messaging.md#appendix-a
+// See https://github.com/popopx-chat/popopxmq/blob/master/protocol/popopx-messaging.md#transport-handshake
 // The numbers in function names refer to the steps in the document.
 export async function clientHandshake(conn: WSTransport, keyHash?: Uint8Array): Promise<THandle> {
   const {serverKey, blockSize} = await getHeaderAndPublicKey_1_2(conn, keyHash)
